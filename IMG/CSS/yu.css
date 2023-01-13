@@ -1,0 +1,121 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+	background-image: url(../dESKTOP.JPG);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: grid;
+    place-items: center;
+  }
+
+.container{
+    width: 30em;
+	margin: 4em;
+}
+.head__section img{
+    display:block;
+    margin: 0 auto;
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.head__section p{
+    text-align: center;
+	margin-top: 13px;
+	font-size: 1.5em;
+    color: rgb(5, 120, 252);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.social__links ul li{
+    width: 100%;
+    margin: 1.2rem 0;
+    padding: 0.4rem 0.8rem;
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 0px );
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 0 0.8rem  rgba(255, 255, 255, .12);
+}
+.js-tilt-glare{
+    border-radius: 5px;
+}
+.social__links ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 1rem;
+
+}
+.social__links ul li a i{
+    text-align: center;
+    line-height: 4rem;
+	padding: 10px 20px;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.4) translateZ(50px);
+    transition: 0.25s;
+}
+.social__links ul li a span{
+    line-height: 1.4rem;
+}
+.social__links ul .facebook:hover{
+    background: rgb(5, 120, 252);
+}
+.social__links ul .instagram:hover{
+    background: #fd5949;
+}
+.social__links ul .youtube:hover{
+    background:#FF0000;
+}
+.social__links ul .tiktok:hover{
+    background: #69C9D0;
+} 
+.social__links ul .contact:hover{
+    background: RGB(0, 136, 204);
+} 
+.social__links ul .share:hover{
+    background: #34a853;
+} 
+@media only screen and (max-width: 1280px){
+    body{
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+      }
+      .container{
+        width: 20em;
+        margin: 1em;
+    }
+    .head__section img{
+        display:block;
+        margin: 0 auto;
+        height: 6rem;
+        width: 6rem;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .head__section p{
+        text-align: center;
+        margin-top: 13px;
+        font-size: 1.5em;
+        color: rgb(255, 255, 255);
+    }
+}
